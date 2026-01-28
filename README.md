@@ -11,6 +11,7 @@ A Django REST Framework project for managing blog posts and categories with JWT 
 - Slug-based URLs
 - Dynamic pagination
 - Permissions: only authors can update/delete their posts
+- Interactive API documentation with Swagger (drf-spectacular)
 
 ## Installation
 
@@ -60,6 +61,15 @@ Blog Post Detail/Update/Delete: /api/blogposts/<slug>/
 Categories List/Create: /api/categories/
 
 Category Detail/Update/Delete: /api/categories/<slug>/
+
+## API Documentation
+
+ Interactive Swagger docs are available at:
+
+/api/schema/  -> OpenAPI schema
+/api/docs/    -> Swagger UI
+
+
 
 Use the JWT token in the header:
 Authorization: Bearer <your_token>
