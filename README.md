@@ -36,13 +36,13 @@ pipenv shell
 
 5. Apply migrations and create a superuser (optional):
 ```bash
-python manage.py migrate
-python manage.py createsuperuser
+py manage.py migrate
+py manage.py createsuperuser
 ```
 
 6. Run the development server:
 ```bash
-python manage.py runserver
+py manage.py runserver
 ```
 
 The API will be available at http://127.0.0.1:8000/api/.
