@@ -44,3 +44,22 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+
+The API will be available at http://127.0.0.1:8000/api/.
+
+## API Endpoints
+
+Register: /api/register/
+
+JWT Token: /api/token/
+
+Blog Posts List/Create: /api/blogposts/
+
+Blog Post Detail/Update/Delete: /api/blogposts/<slug>/
+
+Categories List/Create: /api/categories/
+
+Category Detail/Update/Delete: /api/categories/<slug>/
+
+Use the JWT token in the header:
+Authorization: Bearer <your_token>
