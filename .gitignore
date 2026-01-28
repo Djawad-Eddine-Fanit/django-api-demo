@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.env
+*.env
+
+# MySQL dumps (optional)
+*.sql
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+django-*
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django migrations (optional, track if needed)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Logs and temp files
+*.log
+*.pot
+*.tmp
+*.swp
